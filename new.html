@@ -53,8 +53,9 @@
 
     // Output the result in an element with id="demo"
     if(day==1 || day==2 || day==4 || day==5) {
-      if(hr<16) document.getElementById("demo").innerHTML = "next class in: <br>0" + hours + ":" + minutes + ":" + seconds;
-      else      document.getElementById("demo").innerHTML = "class done for today~";
+      //if(hr<16)
+	document.getElementById("demo").innerHTML = "next class in: <br>0" + hours + ":" + minutes + ":" + seconds;
+      //else      document.getElementById("demo").innerHTML = "class done for today~";
     } else document.getElementById("demo").innerHTML = "no school today~";
 
     // If the count down is over, write some text 
